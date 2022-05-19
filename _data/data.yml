@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: hello@webjeda.com
     phone: +7 (925) 148-32-90
-    citizenship: РФ
+    citizenship:
     website: n0dustoll3ns.github.io/my-online-cv/ #do not add http://
     linkedin: 
     xing: 
@@ -42,36 +42,21 @@ sidebar:
       - item: Сноубординг
         link:
 
-      - item: 
-        link:
-
 career-profile:
     title: Обо мне
     summary: |
       Поработав в электронной торговле и индустрии красоты как технический специалист, аналитик и менеджер, я принял решение начать программировать самостоятельно.  В рамках предыдущей деятельности взаимодействовал с командой программистов и верстальщиков в части ТЗ и приемки работ, соответственно, понимаю логику и процедуру разработки. Начинал как фрилансер-верстальщик, проработал так 6 месяцев, после чего начал осваивать разработку мобильных приложений на Flutter и веб-приложений на React. Сейчас я продолжаю осваивать новые библиотеки и инструменты фреймворка React. Несмотря на отсутствие опыта в командной работе я регулярно запрашивал код ревью у более опытных коллег, чтобы обеспечить читабельность и качество моего кода. [Здесь вы можете скачать моё резюме]().
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Бакалавр
+      university: НИУ Московский Государственный Строительный Университет
+      time: СЕНТЯБРЬ 2013 – ИЮЛЬ  2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Инженер-проектировщик зданий гражданского назначения с правом на проектирование
+    - degree: Сертификат
+      university: Internet-Маркетолог от Ingate
+      time: ЯНВАРЬ 2019 – ИЮЛЬ  2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Интернет-Маркетолог
 experiences:
     - role: Проектный менеджер
       time: СЕНТЯБРЬ 2019 – НАСТОЯЩЕЕ ВРЕМЯ
@@ -82,7 +67,7 @@ experiences:
           - Выбор оптимального решения, пакета услуг и дополнительных модулей и настроек для шаблонного решения
           - Оценка рисков на этапе реализации проекта и оптимизация решений
           - Составление списка необходимых доработок
-          - Составление предварительного списка регулярных задач по обработке заказов в соответствии с существующими бизнес-процессами.
+          - Составление предварительного списка регулярных задач по обработке заказов в соответствии с существующими бизнес-процессами. |
         Работа с исполнителем - веб-студией
           - Работа с подрядчиком, согласование тз и контроль исполнения 
           - Оценка рисков на этапе реализации проекта и оптимизация решений
