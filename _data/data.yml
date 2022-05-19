@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: hello@webjeda.com
     phone: +7 (925) 148-32-90
-    citizenship: Russia
+    citizenship: РФ
     website: n0dustoll3ns.github.io/my-online-cv/ #do not add http://
     linkedin: 
     xing: 
@@ -34,9 +34,6 @@ sidebar:
 
       - idiom: Russian
         level: Native
-
-      - idiom: Spanish
-        level: Professional
 
     interests:
       - item: Climbing
