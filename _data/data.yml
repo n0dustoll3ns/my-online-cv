@@ -26,7 +26,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars: n0dustoll3ns
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: <a class ="print-doc" href="javascript:(print());"> Распечатать</a>
+    pdf: Распечатать 
 
     languages:
       - idiom: English
