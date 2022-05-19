@@ -36,24 +36,19 @@ sidebar:
         level: Native
 
     interests:
-      - item: Climbing
+      - item: Тренажерный зал
         link:
 
-      - item: Snowboarding
+      - item: Сноубординг
         link:
 
-      - item: Cooking
+      - item: 
         link:
 
 career-profile:
-    title: Career Profile
+    title: Обо мне
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Поработав в электронной торговле и индустрии красоты как технический специалист, аналитик и менеджер, я принял решение начать программировать самостоятельно.  В рамках предыдущей деятельности взаимодействовал с командой программистов и верстальщиков в части ТЗ и приемки работ, соответственно, понимаю логику и процедуру разработки. Начинал как фрилансер-верстальщик, проработал так 6 месяцев, после чего начал осваивать разработку мобильных приложений на Flutter и веб-приложений на React. Сейчас я продолжаю осваивать новые библиотеки и инструменты фреймворка React. Несмотря на отсутствие опыта в командной работе я регулярно запрашивал код ревью у более опытных коллег, чтобы обеспечить читабельность и качество моего кода. [Здесь вы можете скачать моё резюме]().
 education:
     - degree: MSc in Computer Science
       university: University of London
