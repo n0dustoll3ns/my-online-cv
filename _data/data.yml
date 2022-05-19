@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -73,10 +73,22 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Проектный менеджер
+      time: СЕНТЯБРЬ 2019 – НАСТОЯЩЕЕ ВРЕМЯ
+      company: Camilla de Luxe, Новосибирск
       details: |
+        Работа с владельцем
+          - Согласование функциональных требований к продукту с владельцем
+          - Выбор оптимального решения, пакета услуг и дополнительных модулей и настроек для шаблонного решения
+          - Оценка рисков на этапе реализации проекта и оптимизация решений
+          - Составление списка необходимых доработок
+          - Составление предварительного списка регулярных задач по обработке заказов в соответствии с существующими бизнес-процессами.
+        Работа с исполнителем - веб-студией
+          - Работа с подрядчиком, согласование тз и контроль исполнения 
+          - Оценка рисков на этапе реализации проекта и оптимизация решений
+          - Выбор хостинга
+          - выбор настроек готового решения
+          - список модулей служб оплаты и
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -160,26 +172,35 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: React 
+        level: 48%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Javascript
+        level: 68%
 
-      - name: Angular
-        level: 98%
+      - name: Typescript
+        level: 55%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 75%
 
-      - name: Ruby on Rails
+      - name: SCSS
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Верстки по макетам из Figma
+        level: 40%
+
+      - name: BOOTSTRAP
+        level: 20%
+
+      - name: State-manage
         level: 60%
+
+      - name: state-менеджмент Redux
+        level: 10%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
