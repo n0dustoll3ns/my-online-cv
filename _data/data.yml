@@ -14,17 +14,17 @@ sidebar:
     # Sidebar links
     email: hello@webjeda.com
     phone: +7 (925) 148-32-90
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    citizenship: Russia
+    website: n0dustoll3ns.github.io/my-online-cv/ #do not add http://
+    linkedin: 
+    xing: 
+    github: n0dustoll3ns
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    codewars: n0dustoll3ns
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: <a class ="print-doc" href="javascript:(print());"> Распечатать</a>
 
