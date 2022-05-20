@@ -1,18 +1,610 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Фоминых Денис Григорьевич РЕЗЮМЕ</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beautiful Jekyll theme for creating resume">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="all.css">
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar-wrapper">
+      <div class="profile-container">
+        <img class="avatar" src="profile.png" alt="profile picture" />
+        <h1 class="name">Фоминых Денис</h1>
+        <h3 class="tagline">React Developer</h3>
+      </div>
+      <!--//profile-container-->
+      <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+          <li class="email"><i class="fas fa-envelope"></i>
+            <a href="mailto:fominykh.dg@gmail.com">fominykh.dg@gmail.com</a>
+          </li>
+          <li class="phone"><i class="fas fa-phone"></i>
+            <a href="tel:+7 (925) 148-32-90">+7 (925) 148-32-90</a>
+          </li>
+          <li class="website"><i class="fas fa-globe-americas"></i>
+            <a href="http://n0dustoll3ns.github.io/my-online-cv/"
+              target="_blank">n0dustoll3ns.github.io/my-online-cv/</a>
+          </li>
+          <li class="github"><i class="fab fa-github"></i>
+            <a href="http://github.com/n0dustoll3ns" target="_blank">n0dustoll3ns</a>
+          </li>
+          <li class="codewars"><i class="fas fa-code"></i>
+            <a href="https://www.codewars.com/users/n0dustoll3ns/completed_solutions" target="_blank">n0dustoll3ns</a>
+          </li>
+          <li class="pdf"><i class="fas fa-file-pdf"></i>
+            <a href="javascript:(print());">Resume PDF</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--//contact-container-->
+      <div class="education-container container-block">
+        <h2 class="container-block-title">
+          Education
+        </h2>
+        <div class="item">
+          <h4 class="degree">Бакалавр</h4>
+          <h5 class="meta">НИУ Московский Государственный Строительный Университет</h5>
+          <div class="time">СЕНТЯБРЬ 2013 – ИЮЛЬ 2017</div>
+        </div>
+        <!--//item-->
+
+        <div class="item">
+          <h4 class="degree">Сертификат</h4>
+          <h5 class="meta">Internet-Маркетолог от Ingate</h5>
+          <div class="time">ЯНВАРЬ 2019 – ИЮЛЬ 2019</div>
+        </div>
+        <!--//item-->
 
 
-{% include career-profile.html %}
+      </div>
+      <!--//education-container-->
+      <div class="languages-container container-block">
+        <h2 class="container-block-title">
+          Languages
+        </h2>
+        <ul class="list-unstyled interests-list">
+          <li>
+            English
+            <span class="lang-desc">(B2)</span>
+          </li>
+          <li>
+            Russian
+            <span class="lang-desc">(Native)</span>
+          </li>
+        </ul>
+      </div>
+      <!--//interests-->
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">
+          Interests
+        </h2>
+        <ul class="list-unstyled interests-list">
+          <li>Тренажерный зал</li>
+          <li>Сноубординг</li>
+        </ul>
+      </div>
+      <!--//interests-->
+    </div>
+    <!--//sidebar-wrapper-->
+    <div class="main-wrapper">
+      <section class="section summary-section">
+        <h2 class="section-title">
+          <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+          </span>
+          Обо мне
+        </h2>
+        <div class="summary">
+          <p>Поработав в электронной торговле и индустрии красоты как технический специалист, аналитик и менеджер, я
+            принял решение начать программировать самостоятельно. В рамках предыдущей деятельности взаимодействовал с
+            командой программистов и верстальщиков в части ТЗ и приемки работ, соответственно, понимаю логику и
+            процедуру разработки. Начинал как фрилансер-верстальщик, проработал так 6 месяцев, после чего начал
+            осваивать разработку мобильных приложений на Flutter и веб-приложений на React. Сейчас я продолжаю осваивать
+            новые библиотеки и инструменты фреймворка React. Несмотря на отсутствие опыта в командной работе я регулярно
+            запрашивал код ревью у более опытных коллег, чтобы обеспечить читабельность и качество моего кода. <a
+              href="javascript:(print());">Здесь вы можете распечатать моё резюме</a>.</p>
+        </div>
+        <!--//summary-->
+      </section>
+      <!--//section-->
+      <section class="section experiences-section">
+        <h2 class="section-title">
+          <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+          </span>
+          Experiences
+        </h2>
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
 
-{% include experiences.html %}
+        <div class="item">
 
-{% include projects.html %}
+          <div class="meta">
 
-{% include publications.html %}
+            <div class="upper-row">
+              <h3 class="job-title">Проектный менеджер</h3>
+              <div class="time">СЕНТЯБРЬ 2019 – НАСТОЯЩЕЕ ВРЕМЯ</div>
+            </div>
+            <!--//upper-row-->
 
-{% include skills.html %}
+            <div class="company">Camilla de Luxe, Новосибирск</div>
+
+          </div>
+          <!--//meta-->
+
+
+          <div class="details">
+            <p>Работа с владельцем
+              Работа с исполнителем - веб-студией</p>
+            <ul>
+              <li>Согласование функциональных требований к продукту с владельцем</li>
+              <li>Выбор оптимального решения, пакета услуг и дополнительных модулей и настроек для шаблонного решения
+              </li>
+              <li>Оценка рисков на этапе реализации проекта и оптимизация решений</li>
+              <li>Составление списка необходимых доработок</li>
+              <li>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Составление предварительного списка регулярных задач по обработке заказов в соответствии с
+                        существующими бизнес-процессами.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+              <li>Работа с подрядчиком, согласование тз и контроль исполнения</li>
+              <li>Оценка рисков на этапе реализации проекта и оптимизация решений</li>
+              <li>Выбор хостинга</li>
+              <li>выбор настроек готового решения</li>
+              <li>список модулей служб оплаты и
+                Describe your role here lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+                error sit voluptatem accusantium doloremque laudantium, totam rem
+                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae dicta sunt explicabo.</li>
+              <li>Bullet point</li>
+              <li>Bullet point</li>
+            </ul>
+
+          </div>
+          <!--//details-->
+
+
+        </div>
+        <!--//item-->
+
+        <div class="item">
+
+          <div class="meta">
+
+            <div class="upper-row">
+              <h3 class="job-title">Senior Software Engineer</h3>
+              <div class="time">2014 - 2015</div>
+            </div>
+            <!--//upper-row-->
+
+            <div class="company">Google, London</div>
+
+          </div>
+          <!--//meta-->
+
+
+          <div class="details">
+            <p>Describe your role here lorem ipsum dolor sit amet, consectetuer
+              adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Donec quam felis, ultricies nec,
+              pellentesque eu, pretium quis, sem.</p>
+            <ul>
+              <li>Bullet point</li>
+              <li>Bullet point</li>
+            </ul>
+
+          </div>
+          <!--//details-->
+
+
+        </div>
+        <!--//item-->
+
+        <div class="item">
+
+          <div class="meta">
+
+            <div class="upper-row">
+              <h3 class="job-title">UI Developer</h3>
+              <div class="time">2012 - 2014</div>
+            </div>
+            <!--//upper-row-->
+
+            <div class="company">Amazon, London</div>
+
+          </div>
+          <!--//meta-->
+
+
+          <div class="details">
+            <p>Describe your role here lorem ipsum dolor sit amet, consectetuer
+              adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Donec quam felis, ultricies nec,
+              pellentesque eu, pretium quis, sem.</p>
+            <ul>
+              <li>Bullet point</li>
+              <li>Bullet point</li>
+            </ul>
+
+          </div>
+          <!--//details-->
+
+
+        </div>
+        <!--//item-->
+
+
+      </section>
+      <!--//section-->
+
+
+
+
+
+
+      <section class="section projects-section">
+
+        <h2 class="section-title">
+          <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+          </span>
+          Projects
+        </h2>
+
+
+        <div class="intro">
+          <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+          </p>
+        </div>
+        <!--//intro-->
+
+
+
+        <div class="item">
+
+          <span class="project-title">
+
+            <a href="#hook" target="_blank">Velocity</a>
+
+          </span>
+
+
+          - <span class="project-tagline">A responsive website template designed to help startups promote, market and
+            sell their products.</span>
+
+
+        </div>
+        <!--//item-->
+
+        <div class="item">
+
+          <span class="project-title">
+
+            <a href="#" target="_blank">DevStudio</a>
+
+          </span>
+
+
+          - <span class="project-tagline">A responsive website template designed to help web developers/designers market
+            their services.</span>
+
+
+        </div>
+        <!--//item-->
+
+        <div class="item">
+
+          <span class="project-title">
+
+            <a href="#" target="_blank">Tempo</a>
+
+          </span>
+
+
+          - <span class="project-tagline">A responsive website template designed to help startups promote their products
+            or services and to attract users &amp; investors</span>
+
+
+        </div>
+        <!--//item-->
+
+        <div class="item">
+
+          <span class="project-title">
+
+            <a href="#" target="_blank">Atom</a>
+
+          </span>
+
+
+          - <span class="project-tagline">A comprehensive website template solution for startups/developers to market
+            their mobile apps.</span>
+
+
+        </div>
+        <!--//item-->
+
+        <div class="item">
+
+          <span class="project-title">
+
+            <a href="#" target="_blank">Delta</a>
+
+          </span>
+
+
+          - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote
+            their mobile apps</span>
+
+
+        </div>
+        <!--//item-->
+
+
+      </section>
+      <!--//section-->
+
+
+
+
+
+      <section class="section publications-section">
+
+        <h2 class="section-title">
+          <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+          </span>
+          Publications
+        </h2>
+
+
+        <div class="intro">
+          <p>You can list your publications in this section. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+            bibendum fringilla a eu lectus.</p>
+
+        </div>
+        <!--//intro-->
+
+
+
+        <div class="item">
+
+          <li><a href="#">The Art of Computer Programming</a></li>
+
+          <div class="publication-authors">Donald E. Knuth</div>
+          <div class="publication-conference">Addison-Wesley, 1968</div>
+        </div>
+        <!--//item-->
+
+        <div class="item">
+
+          <li><a href="#">Genetic Programming III: Darwinian Invention &amp; Problem Solving</a></li>
+
+          <div class="publication-authors">Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.</div>
+          <div class="publication-conference">Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)
+          </div>
+        </div>
+        <!--//item-->
+
+        <div class="item">
+
+          <li><a href="#">A syntax directed compiler for Algol 60</a></li>
+
+          <div class="publication-authors">Edgar T. Irons</div>
+          <div class="publication-conference">Comm. ACM 4 (1961), 51–55</div>
+        </div>
+        <!--//item-->
+
+
+      </section>
+      <!--//section-->
+
+
+
+
+
+      <section class="skills-section section">
+
+        <h2 class="section-title">
+          <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+          </span>
+          Skills
+        </h2>
+
+        <div class="skillset">
+
+
+          <div class="item">
+
+            <h3 class="level-title">React</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="48%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+          <div class="item">
+
+            <h3 class="level-title">Javascript</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="68%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+          <div class="item">
+
+            <h3 class="level-title">Typescript</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="55%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+          <div class="item">
+
+            <h3 class="level-title">HTML5 & CSS</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="75%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+          <div class="item">
+
+            <h3 class="level-title">SCSS</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="85%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+          <div class="item">
+
+            <h3 class="level-title">Верстки по макетам из Figma</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="40%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+          <div class="item">
+
+            <h3 class="level-title">BOOTSTRAP</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="20%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+          <div class="item">
+
+            <h3 class="level-title">State-manage</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="60%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+          <div class="item">
+
+            <h3 class="level-title">state-менеджмент Redux</h3>
+
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="10%">
+              </div>
+            </div>
+            <!--//level-bar-->
+
+          </div>
+          <!--//item-->
+
+
+        </div>
+
+      </section>
+      <!--//skills-section-->
+
+
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="text-center">
+      <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+      <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com"
+          target="_blank" rel="nofollow">Xiaoying Riley</a>
+      </small>
+    </div>
+    <!--//container-->
+  </footer>
+  <!--//footer-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+
+  <!-- custom js -->
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
